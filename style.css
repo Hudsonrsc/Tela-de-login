@@ -1,0 +1,144 @@
+.body{
+
+    margin: 0;
+}
+
+
+
+.main{
+    width: auto;
+    height: auto;
+    background: linear-gradient(#8074b8, #dab8df,#a1b9d0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+.imng{
+max-width: 640px;
+transform: translateY(0px);
+animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+
+0% {
+    transform: translateY(0px);
+}
+50% {
+    transform: translateY(-30px);
+}
+100% {
+    transform: translateY(0px);
+}
+
+}
+
+.left-login{
+
+  color:#3b3557;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+max-width: 50%;
+font-family: Arial, Helvetica, sans-serif;
+transform: translateY(0px);
+animation: float 5s ease-in-out infinite;
+}
+
+
+
+.right-login{
+
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-login{
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px; 
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+
+.card-login>h1{
+    color: #3b3557;
+    font-weight: 800;
+    margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textfield>input{
+    width: 100%;
+    border:none;
+    border-radius: 10px;
+    padding: 15px;
+    background: 
+    #a1b9d0;
+    color:#3b3557;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.textfield>label{
+    color: 
+    #3b3557;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+
+}
+.textfield>input::placeholder{
+    color: #3b3557;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing:3px ;
+    color:#3b3557;
+    background:#8074b8;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+    box-shadow: 0px 10px 40px -12px #8074b8;
+}
